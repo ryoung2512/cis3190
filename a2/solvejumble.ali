@@ -1,0 +1,162 @@
+V "GNAT Lib v2017"
+M P W=b
+A -mmacosx-version-min=10.13.4
+A -mtune=core2
+A -fPIC
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLICIT_LOOPS
+RV SPARK_05
+
+U solvejumble%b		solvejumble.adb		52d9c14a NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.strings.unbounded.text_io%s  a-suteio.adb	a-suteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+W system.val_int%s	s-valint.adb		s-valint.ali
+
+D ada.ads		20170516105951 76789da1 ada%s
+D a-charac.ads		20170516105954 2d3ec45b ada.characters%s
+D a-chlat1.ads		20170516105952 66457d31 ada.characters.latin_1%s
+D a-except.ads		20170516105953 291912d5 ada.exceptions%s
+D a-finali.ads		20170516105954 bf4f806b ada.finalization%s
+D a-inteio.ads		20170516105955 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20170516105949 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20170516105952 119b8fb3 ada.streams%s
+D a-string.ads		20170516105953 90ac6797 ada.strings%s
+D a-strmap.ads		20170516105953 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20170516105950 ecdfa332 ada.strings.unbounded%s
+D a-suteio.ads		20170516105949 26d8e9aa ada.strings.unbounded.text_io%s
+D a-tags.ads		20170516105955 d3a89129 ada.tags%s
+D a-textio.ads		20170516105955 386df5d4 ada.text_io%s
+D a-tiinio.ads		20170516105950 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
+D interfac.ads		20170516105950 5ab55268 interfaces%s
+D i-cstrea.ads		20170516105950 e53d8b8e interfaces.c_streams%s
+D solvejumble.adb	20180225231726 56f8f7a2 solvejumble%b
+D system.ads		20170516105953 085b6ffb system%s
+D s-atocou.ads		20170516105956 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20170516105948 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170516105954 54135002 system.exception_table%s
+D s-ficobl.ads		20170516105956 078245e4 system.file_control_block%s
+D s-finmas.ads		20170516105954 7811a767 system.finalization_masters%s
+D s-finroo.ads		20170516105954 4ff27390 system.finalization_root%s
+D s-memory.ads		20170516105953 597d6634 system.memory%s
+D s-parame.ads		20170516105955 7e2a0d7f system.parameters%s
+D s-secsta.ads		20170516105955 9751b57e system.secondary_stack%s
+D s-soflin.ads		20170516105951 14e1eb6c system.soft_links%s
+D s-stache.ads		20170516105955 a37c21ec system.stack_checking%s
+D s-stalib.ads		20170516105955 09bd3940 system.standard_library%s
+D s-stalib.adb		20170516105948 f2fe2716 system.standard_library%b
+D s-stoele.ads		20170516105956 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20170516105951 b16154c2 system.storage_pools%s
+D s-stposu.ads		20170516105949 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20170516105949 aedef97e system.stream_attributes%s
+D s-traent.ads		20170516105950 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170516105953 34867c83 system.unsigned_types%s
+D s-valint.ads		20170516105953 48a52a3f system.val_int%s
+D s-wchcon.ads		20170516105954 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 19|6r6 6r23 7r6 7r31 8r6 8r33 9r6 9r41
+X 6 a-inteio.ads
+18K13*Integer_Text_IO[15|46] 19|7w10 7r35
+X 9 a-string.ads
+16K13*Strings 35e16 19|8r10 8r37 9r10 9r45
+X 11 a-strunb.ads
+76K21*Unbounded 490e26 19|8w18 8r45 9r18 9r53
+79R9*Unbounded_String<5|43R9> 474e14 19|13r48 16r37 28r40 65r57 67r12 79r13
+. 110r16
+94V13*To_Unbounded_String{79R9} 19|46s24 60s24
+100V13*To_String{string} 19|20s16 20s41 38s28 52s28 71s28
+166V14*"="{boolean} 19|101s32
+X 12 a-suteio.ads
+39K31*Text_IO 61e34 19|9w28 9r63
+41V13*Get_Line{11|79R9} 19|126s21
+47U14*Get_Line 19|87s13
+55U14*Put_Line 19|102s21
+X 14 a-textio.ads
+49K13*Text_IO 471e16 19|6w10 6r27
+52P9*File_Type 19|78r16
+53n23*In_File{53E9} 19|83r20
+92U14*Open 19|83s9
+98U14*Close 19|91s9
+183V13*End_Of_File{boolean} 19|86s23
+242U14*Put 19|121s9
+256V13*Get_Line{string} 19|122s28
+263U14*Put_Line 19|125s13
+X 19 solvejumble.adb
+11U11*solveJumble 11b11 139l5 139t16
+13A10 strArr(11|79R9)<integer> 16r69 28r117 65r106 66r15 76r34 80r16 96r40
+. 96r77 113r19 115r14
+16V14 countOccurences{boolean} 16b14 16>30 16>55 16>78 25t8 32s29
+16r30 s{11|79R9} 20r51
+16a55 anagrams{13A10} 20r26
+16i78 index{integer} 18r21
+18i13 i{integer} 20r35
+28U15 permutation 28b15 28=27 28>59 28>79 28=99 28=126 49s17 63t8 71s10
+28r27 str{11|79R9} 32r45 33r32 38r38 46m17 49m29 52r38 60m17
+28i59 left{integer} 32r12 36r22 41r33 42r25 49r34 55r33 56r25
+28i79 right{integer} 30r29 32r19 36r28 49r44
+28a99 anagrams{13A10} 32r50 33m13 49m51
+28i126 index{integer} 32r60 33r22 34m13 34r22 49m61
+29e9 temp{character} 41m17 43r31 55m17 57r31
+30a9 tempStr{string} 38m17 41r25 42m17 42r34 43m17 46r44 52m17 55r25 56m17
+. 56r34 57m17 60r44
+36i17 i{integer} 42r42 43r25 56r42 57r25
+65V14 generateAnagram{13A10} 65b14 65>30 65>47 65=75 73l9 73t24 128s25
+65i30 n{integer}
+65r47 word{11|79R9} 69r15
+65i75 index{integer} 71m55
+66a8 anas{13A10} 71m49 71r49 72r17
+67r8 s{11|79R9} 69m10 71m22 71r22 71r38
+76V14 buildLEXICON{13A10} 76b14 93l9 93t21 119s16
+77i9 i{integer} 82m9 88r18 89m13 89r18
+78p9 infp{14|52P9} 83m14 83r14 86r35 87r22 91m15 91r15
+79r9 s{11|79R9} 87m28 88r24
+80a9 lexi{13A10} 88m13 92r16
+96U15 findAnagram 96b15 96>27 96>49 96>69 106l9 106t20 130s13
+96a27 anagrams{13A10} 101r20 102r30
+96i49 index{integer} 98r21
+96a69 lex{13A10} 101r34
+98i13 i{integer} 101r29 102r39
+99i17 j{integer} 101r38
+109U15 inputJumble 109b15 133l9 133t20 137s5
+110r9 word{11|79R9} 126m13 128r44
+111i9 n{integer} 122m9 124r21 128r41
+111i12 index{integer} 117m9 128m50 128r50 130r35 131m13
+113a9 anagrams{13A10} 128m13 130r25
+115a9 lex{13A10} 119m9 130r42
+124i13 i{integer}
+X 20 system.ads
+67M9*Address
+X 27 s-memory.ads
+53V13*Alloc{20|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{20|67M9} 105i<c,__gnat_realloc>22
+X 33 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+
