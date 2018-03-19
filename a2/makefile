@@ -5,4 +5,4 @@ assignment:
 	gnatmake solvejumble.adb
 
 clean:
-	rm hello
+	rm solvejumble
